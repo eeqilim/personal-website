@@ -1,0 +1,40 @@
+.subscription {
+    padding: 64px;
+    text-align: center;
+}
+
+.subscription h2 {
+    font-size: 50px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+}
+
+.subscription__social {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.subscription__social ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line to center the icons horizontally */
+}
+
+.subscription__social li {
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 100%;
+}
+
+.subscription__social li:last-child {
+    margin-right: 0; /* Remove margin-right from the last icon to avoid extra space */
+  }
+
+.subscription__social li img {
+    width: 45%;
+    height: 45%;
+    object-fit: contain;
+}

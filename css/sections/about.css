@@ -1,0 +1,22 @@
+.about-me {
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+}
+
+.about-me__image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 900px;
+}
+
+.about-me__content {
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
